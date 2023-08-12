@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color:rgb(246, 231, 21) ;
+}
+.nav{
+    width:100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color:rgb(246, 231, 21);
+    height:60px;
+}
+.light-nav{
+    width:100%;
+    background-color:rgb(246, 231, 21) ;
+    display: flex;
+    justify-content: space-between;
+    color:black;
+    height:60px;
+}
+ul{
+    list-style-type: none;
+    margin-left: 100px;
+}
+li{
+    float:left;
+    margin-right: 20px;
+    font-size: 20px;
+    padding: 15px 0px;
+}
+.main{
+    width:40%;
+    margin:0px auto;
+
+}
+.dark{
+    background-color: black;
+}
+.blog-posts{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+.posts{
+    background-color: black;
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.post_1{
+    background-color: rgb(246, 231, 21);
+    width:95%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 10px 0px;
+    margin: 10px auto;
+}
+.content_1{
+    color:rgb(246, 231, 21);
+    width:95%;
+    margin:0px auto;
+    margin-top: 20px;
+}
+.author_1{
+    color:rgb(246, 231, 21);
+    width:95%;
+    margin: 0px auto;
+    margin-top:10px ;
+    padding-bottom:20px;
+    font-size: 18px;
+}
+.toggle{
+    border-radius:50px;
+    background-color: black;
+    width:80px;
+    height:40px;
+    border:2px solid rgb(246, 231, 21);
+    margin: 10px 250px;   
+}
+.light_theme{
+    border-radius:50px;
+    background-color: rgb(246, 231, 21);
+    width:80px;
+    height:40px;
+    border:2px solid black;
+    margin: 10px 250px;  
+}
+ .dark-moon{
+    font-size: 26px;
+    color:rgb(246, 231, 21);
+    background-color:rgb(246, 231, 21);
+    border-radius: 50%;
+    width:35%;
+    margin-left:45px;
+    transition: 0.4s;
+}
+.light-sun{
+    font-size: 26px;
+    color:black;
+    background-color:black;
+    border-radius: 50%;
+    width:35%;
+    margin-left:5px;
+}
+.blog-posts-light{
+    color:rgb(246, 231, 21);
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 20px;
+    text-align: center;
+}
+.post-light{
+    background-color: rgb(246, 231, 21);
+    margin-top: 20px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.post_1_light{
+    background-color: black;
+    width:95%;
+    text-align: center;
+    border-radius: 15px;
+    font-weight: 700;
+    padding: 10px 0px;
+    margin: 10px auto;
+    color:rgb(246, 231, 21);
+}
+.content_1_light{
+    color:black;
+    background-color: rgb(246, 231, 21);
+    width:95%;
+    margin:0px auto;
+    margin-top: 20px;
+}
+.author_1_light{
+    color:black;
+    background-color: rgb(246, 231, 21);
+    width:95%;
+    margin: 0px auto;
+    margin-top:10px ;
+    padding-bottom:20px;
+    font-size: 18px;
+}
+
+

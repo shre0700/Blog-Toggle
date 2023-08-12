@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="blog_posts.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body id="body_theme">
+    <div class="nav" id="light">
+        <div class="left-nav">
+            <ul>
+                <li>Home</li>
+                <li>About us</li>
+                <li>Our Services</li>
+                <li>Privacy Policy</li>
+                <li>Contact</li>
+            </ul>
+        </div>
+        <div class="right-nav">
+            <button class="toggle" id="toggle_light" onclick="toggle_click()">
+                <!-- <i class="fa-solid fa-moon"></i>
+                <i class="fa-solid fa-sun"></i> -->
+                <p id="toggle_btn" class="dark-moon">.</p>
+            </button>
+        </div>
+    </div>
+    <div class="main">
+        <p class="blog-posts" id="p1">Blog Posts</p>
+        <div class="posts" id="posts_light1">
+            <p class="post_1" id="p2_1">Blog Post Number 1</p>
+            <p class="content_1" id="p3_1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, cum modi adipisci molestiae, error eius suscipit voluptatibus ex sed perferendis sunt earum voluptatem nobis, voluptates quod omnis dicta magni. In?</p>
+            <p class="author_1" id="p4_1">By John Doe</p>
+        </div>
+
+        <div class="posts" id="posts_light2">
+            <p class="post_1" id="p2_2">Blog Post Number 2</p>
+            <p class="content_1" id="p3_2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequatur, cum modi adipisci molestiae, error eius suscipit voluptatibus ex sed perferendis sunt earum voluptatem nobis, voluptates quod omnis dicta magni. In?</p>
+            <p class="author_1" id="p4_2">By Nicholas Lawenda</p>
+        </div>
+
+        <div class="posts" id="posts_light3">
+            <p class="post_1" id="p2_3">Blog Post Number 3</p>
+            <p class="content_1" id="p3_3">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <p class="author_1" id="p4_3">By Mikelew</p>
+        </div>
+
+
+    </div>
+    <script>
+        function toggle_click(){
+               light.class= "light-nav";
+               light.classList.toggle("light-nav");
+               toggle_light.class="light_theme";
+               toggle_light.classList.toggle("light_theme");
+               toggle_btn.class="light-sun";
+               toggle_btn.classList.toggle("light-sun");
+               body_theme.class="dark";
+               body_theme.classList.toggle("dark");
+               posts_light1.class="post-light";
+               posts_light1.classList.toggle("post-light");
+               posts_light2.class="post-light";
+               posts_light2.classList.toggle("post-light");
+               posts_light3.class="post-light";
+               posts_light3.classList.toggle("post-light");
+               p1.class="blog-posts-light";
+               p1.classList.toggle("blog-posts-light");
+               p2_1.class="post_1_light";
+               p2_1.classList.toggle("post_1_light");
+               p2_2.class="post_1_light";
+               p2_2.classList.toggle("post_1_light");
+               p2_3.class="post_1_light";
+               p2_3.classList.toggle("post_1_light");
+               p3_1.class="content_1_light";
+               p3_1.classList.toggle("content_1_light");
+               p3_2.class="content_1_light";
+               p3_2.classList.toggle("content_1_light");
+               p3_3.class="content_1_light";
+               p3_3.classList.toggle("content_1_light");
+               p4_1.class="author_1_light";
+               p4_1.classList.toggle("author_1_light");
+               p4_2.class="author_1_light";
+               p4_2.classList.toggle("author_1_light");
+               p4_3.class="author_1_light";
+               p4_3.classList.toggle("author_1_light");
+            }
+    </script>
+    
+</body>
+</html>
